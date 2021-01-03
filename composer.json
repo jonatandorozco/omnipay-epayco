@@ -1,0 +1,22 @@
+{
+  "name": "jonorozcoc/omnipay-epayco",
+  "description": "An Omnipay driver for ePayco payment gateway",
+  "type": "library",
+  "require": {
+    "omnipay/common": "^3.0",
+    "epayco/epayco-php": "^1.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Omnipay\\Epayco\\": "src/"
+    }
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jonatan Orozco",
+      "email": "jonorozcoc@gmail.com"
+    }
+  ],
+  "version": "0.0.1"
+}
